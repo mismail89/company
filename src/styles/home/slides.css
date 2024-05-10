@@ -1,0 +1,99 @@
+.main-slides-last{
+    background-color: #2a403d;
+}
+.main-slide{
+    width: 90%;
+}
+.each-slide{
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.each-slide .upper-data-link{
+    width: 100%
+}
+.upper-data-link button{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 8px 8px;
+}
+.lower-data-link{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 70%;
+}
+.each-slide:hover{
+    cursor: pointer;
+}
+
+.each-slide:hover .lower-data-link button{
+    border-bottom: 2px solid #1a3733;
+}
+.each-first{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=1ca79c60dce6f768bbfdf1e339f818986c05938f-12421984-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.each-second{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=0f01bc64b785b977a4a13170a91b7f3a7f0419cf-8357950-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.each-six{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=b06efe5c07a111ee291a4823502de3b5d09cf498-9246177-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.each-seven{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://i.pinimg.com/736x/cd/eb/6a/cdeb6a9ab21ebae63abdbf33826d546f.jpg') ;
+    background-size: cover;
+}
+.each-last{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://www.ktbbeton.com/new_static/img/activities/114.jpg') ;
+    background-size: cover;
+}
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content; /* Allow the wrapper to grow beyond the viewport width */
+}
+.main-sliddes{
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch
+}
+
+
+@media (max-width: 767px) {
+    .main-sliddes {
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    }
+    
+    
+    
+    .slider-wrapper {
+        width: 300%; /* Set the width to accommodate all slides */
+        display: flex;
+        gap: 10px;
+    }
+    
+    .each-slide {
+        width: 100vw; /* Each slide takes full viewport width */
+        flex-shrink: 0; /* Prevent slides from shrinking */
+        box-sizing: border-box; /* Ensure padding is included in width calculation */
+    }
+    .main-sliddes::-webkit-scrollbar {
+        display: none; /* Hide the scrollbar */
+    }
+}
+.buttons{
+    background-color: #2a403d;
+}
+
+

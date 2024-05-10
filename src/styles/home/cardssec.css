@@ -1,0 +1,106 @@
+.main-cards-section{
+    background-color: #2a403d;
+}
+.all-card-div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-cards-section{
+    background-color: #020530;
+}
+.cards-all{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.smae-card{
+    width: 23%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.one-card{
+    background: linear-gradient(to bottom, transparent, #3d3e3f
+    ), url('https://avatars.mds.yandex.net/i?id=fd6350be7b3adeae115630415a08ffccb378dcc3-12569755-images-thumbs&n=13') ;
+}
+.two-card{
+    background: linear-gradient(to bottom, transparent, #333335    ), url('https://avatars.mds.yandex.net/i?id=ce1e4d24a3d8978dbb9d97fd1162f48edf3213a5-10471168-images-thumbs&n=13') ;
+}
+.three-card{
+    background: linear-gradient(to bottom, transparent, #333334
+    ), url('https://w.forfun.com/fetch/55/554fc60666b0b4a92d2b854a1fdcccb9.jpeg?h=1200&r=0.5') ;
+}
+.four-card{
+    background: linear-gradient(to bottom, transparent, #3f3f41
+    ), url('https://avatars.mds.yandex.net/i?id=f3331343b968324f690131803d587fa57322f552-4264797-images-thumbs&n=13') ;
+}
+.smae-card:hover{
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.five-card{
+    background: linear-gradient(to top, transparent, #424244
+    ), url('https://avatars.mds.yandex.net/i?id=b10538ed0a7fab8f9feb76e75d5e106f066f5ed5-9709143-images-thumbs&n=13') ;
+}
+.six-card{
+    background: linear-gradient(to top, transparent, #48484b
+    ), url('https://avatars.mds.yandex.net/i?id=bdd739ed9297cda7ea8aacd199c2a640e54c748f-8205921-images-thumbs&n=13') ;
+}
+.seven-card{
+    background: linear-gradient(to top, transparent, #3a3a3d
+    ), url('https://avatars.mds.yandex.net/i?id=2fddd72d0b395daf6f7adb8861910185df07a5ac-12500667-images-thumbs&n=13') ;
+}
+.eight-card{
+    background: linear-gradient(to top, transparent, #5b5b5e
+    ), url('https://avatars.mds.yandex.net/i?id=f7e1cd34671cd71ae9fa72f24b830dbf9e971cb3-10591076-images-thumbs&n=13') ;
+}
+
+@media (max-width: 767px) {
+    .all-card-div{
+        width: 100%;
+    }
+    .smae-card{
+        width: calc(49%);
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .smae-card h1{
+        font-size: 15px;
+    }
+}
+.smae-card {
+    position: relative;
+  }
+  
+  .smae-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initial width of 0 */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Initial transparent background */
+    transition: width 0.5s ease; /* Smooth transition for width */
+  }
+  
+  .smae-card:hover::before {
+    width: 100%; /* Expand width to 100% on hover */
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay on hover */
+  }
+  .smae-card:not(:hover)::before {
+    width: 0; /* Shrink width back to 0 when not hovered */
+  }
+  .eight-card h1 {
+    z-index: 1; /* Ensure the text is above the overlay */
+    /* Your existing styles for text */
+  }
+  

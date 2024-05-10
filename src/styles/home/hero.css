@@ -1,0 +1,6 @@
+
+#newsroom-hero {
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(https://avatars.mds.yandex.net/i?id=c583a6f3cb154bea8c04a70e6973ba8e3bd19fd0-12577662-images-thumbs&n=13);
+    background-size: cover;
+    animation: none;
+}
