@@ -32,7 +32,7 @@ export default function circle() {
                     
                 </div>
                 <div className='card-text mt-4 text-white flex justify-around items-center'>
-                    <h3 className=' w-1/12 flex justify-center items-center text-center'>Intelligent insurance</h3>
+                    <h3 className=' w-1/12 flex justify-center items-center text-center'>Intelligent</h3>
                     <h3 className=' w-1/12 flex justify-center items-center text-center'>La La LLM</h3>
                     <h3 className=' w-1/12 flex justify-center items-center text-center'>Connected numbers</h3>
                     <h3 className=' w-1/12 flex justify-center items-center text-center'>26.2 miles of building on Belief</h3>
