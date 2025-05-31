@@ -18,48 +18,26 @@ export default function footer() {
                     <a href="" className='text-slate-300'>Banking</a>
                     <a href="" className='text-slate-300'>Capital Markets</a>
                     <a href="" className='text-slate-300'>Consumer Goods and Distribution</a>
-                    <a href="" className='text-slate-300'>Communications, Media, and Information Services</a>
-                    <a href="" className='text-slate-300'>Education</a>
-                    <a href="" className='text-slate-300'>Energy, Resources, and Utilities</a>
-                    <a href="" className='text-slate-300'>Healthcare</a>
+                    
                     
                 </div>
                 <div className='each-footer-row'>
                     <h1 className='text-slate-400 text-2xl mb-4'>Services</h1>
-                    <a href="" className='text-slate-300'>Artificial Intelligence</a>
-                    <a href="" className='text-slate-300'>Cloud</a>
-                    <a href="" className='text-slate-300'>Cognitive Business Operations</a>
-                    <a href="" className='text-slate-300'>Consulting</a>
-                    <a href="" className='text-slate-300'>Cybersecurity</a>
-                    <a href="" className='text-slate-300'>Data and Analytics</a>
-                    <a href="" className='text-slate-300'>Enterprise Solutions</a>
+                   <a href="" className='text-slate-300'>Banking</a>
+                    <a href="" className='text-slate-300'>Capital Markets</a>
+                    <a href="" className='text-slate-300'>Consumer Goods and Distribution</a>
                   
                 </div><div className='each-footer-row'>
                     <h1 className='text-slate-400 text-2xl mb-4'>Products and Platforms</h1>
-                    <a href="" className='text-slate-300'>TCS ADD™</a>
-                    <a href="" className='text-slate-300'>TCS BaNCS™</a>
-                    <a href="" className='text-slate-300'>TCS BFSI Platforms</a>
-                    <a href="" className='text-slate-300'>TCS CHROMA™</a>
-                    <a href="" className='text-slate-300'>TCS Customer Intelligence & Insights™</a>
-                    <a href="" className='text-slate-300'>TCS ERP on Cloud</a>
-                    <a href="" className='text-slate-300'>ignio™</a>
+                  <a href="" className='text-slate-300'>Banking</a>
+                    <a href="" className='text-slate-300'>Capital Markets</a>
+                    <a href="" className='text-slate-300'>Consumer Goods and Distribution</a>
                     
                 </div><div className='each-footer-row'>
                     <h1 className='text-slate-400 text-2xl mb-4'>Insights</h1>
-                    <a href="" className='text-slate-300'>Customer Stories
-</a>
-                    <a href="" className='text-slate-300'>Cloud
-</a>
-                    <a href="" className='text-slate-300'>Blockchain
-</a>
-                    <a href="" className='text-slate-300'>IoT
-</a>
-                    <a href="" className='text-slate-300'>Metaverse
-</a>
-                    <a href="" className='text-slate-300'>Future of Work
-</a>
-                    <a href="" className='text-slate-300'>Health and Wellness
-</a>
+                    <a href="" className='text-slate-300'>Banking</a>
+                    <a href="" className='text-slate-300'>Capital Markets</a>
+                    <a href="" className='text-slate-300'>Consumer Goods and Distribution</a>
                    
                     
                 </div>
@@ -90,7 +68,7 @@ export default function footer() {
                 <a href="" className='ml-8'>Security Policy</a>
                 <a href="" className='ml-8'>California Notice at Collection</a>
                 <a href="" className='ml-8'>Customize Cookies</a>
-                <h3 className='text-slate-300 mt-4 ml-8'>©2024 TATA Consultancy Services Limited</h3>
+                <h3 className='text-slate-300 mt-4 ml-8'>©2024 Services Limited</h3>
             </div>
     </div>
     </>
